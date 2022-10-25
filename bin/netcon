@@ -1,0 +1,9 @@
+#!/bin/bash
+
+CHOICE=$(/usr/bin/printf '%s\n' "Up" "Down" | /usr/local/bin/dmenu -p Network)
+
+case "$CHOICE" in
+	Up) pkexec /usr/sbin/ifup enp8s0 && notify-send "Network Connected" ;;
+	Down) pkexec /usr/sbin/ifdown enp8s0 && notify-send "Network Disconnected";;
+esac
+

@@ -1,0 +1,60 @@
+! urxvt
+URxvt*buffered: true
+URxvt*cursorBlink: true
+URxvt*underlineColor: yellow
+URxvt*font:  xft:Ubuntu Mono:size=12:antialias=true
+URxvt*depth: 32
+URxvt*borderless: 1
+URxvt*scrollBar: false
+URxvt*loginShell: true
+Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+URxvt*saveLines: 5000
+URxvt*termName: rxvt-unicode
+
+URxvt*cursorColor: #a6dcf8
+URxvt*background: #1a1a1a
+URxvt*foreground: #ffffec
+
+URxvt*color0: #424242
+URxvt*color1: #b8261e
+URxvt*color2: #3e8630
+URxvt*color3: #7f8f29
+URxvt*color4: #2a8dc5
+URxvt*color5: #8888c7
+URxvt*color6: #6aa7a8
+URxvt*color7: #999957
+URxvt*color8: #eeeea7
+URxvt*color9: #f2acaa
+URxvt*color10: #98ce8f
+URxvt*color11: #b6b79c
+URxvt*color12: #a6dcf8
+URxvt*color13: #d0d1f7
+URxvt*color14: #b0eced
+URxvt*color15: #ffffec
+
+! XTerm
+
+XTerm*background:        #222D31
+XTerm*foreground:        #d8d8d8
+XTerm*pointerColor:      #1ABB9B
+XTerm*faceName:          Fixed
+XTerm*faceSize:          11
+
+
+
+!UXTerm
+UXTerm*faceName: Fixed
+UXTerm*faceSize: 10
+UXTerm*background:        #222D31
+UXTerm*foreground:        #d8d8d8
+UXTerm*dynamicColors:      true
+UXTerm*utf8:               2
+UXTerm*eightBitInput:      true
+UXTerm*saveLines:          512
+UXTerm*scrollKey:          true
+UXTerm*scrollTtyOutput:    false
+UXTerm*scrollBar:          true
+UXTerm*rightScrollBar:     true
+UXTerm*jumpScroll:         true
+UXTerm*multiScroll:        true
+UXTerm*toolBar:            false

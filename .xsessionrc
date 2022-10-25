@@ -1,0 +1,16 @@
+#!/bin/bash
+
+nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
+
+nvidia-settings -a 'AllowFlipping=0'
+
+/usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1 &
+
+picom --backend glx --xrender-sync-fence &
+
+xwallpaper --stretch ~/Pictures/wall/defwall.jpg &
+
+slstatus &
+
+
+exec dwm
